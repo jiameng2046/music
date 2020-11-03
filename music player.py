@@ -1,0 +1,5 @@
+root = Tk()
+tkSnack.installzeSnack(root)
+snd = tkSnack.Sound()
+snd.read("h:\1\2.mp3")
+snd.play(blocking = 1)
